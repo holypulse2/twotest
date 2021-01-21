@@ -1,0 +1,27 @@
+@import "../../../index.scss";
+
+.hero {
+  background-color: #e7ebf1;
+
+  img {
+    max-height: 488px;
+  }
+
+  @media (min-width: 640px) {
+    max-height: 545px;
+  }
+
+  @media (min-width: 2200px) {
+    .hero__content {
+      width: 100%;
+      display: flex;
+      padding-bottom: 0px;
+      align-items: center;
+    }
+    .hero {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

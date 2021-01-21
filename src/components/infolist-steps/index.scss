@@ -1,0 +1,42 @@
+@import "../../index.scss";
+
+.infoliststeps {
+  &__step {
+    color: $blue;
+  }
+
+  h2 {
+    color: $blue;
+  }
+
+  p {
+    color: $grey;
+  }
+
+  &__stepText {
+    color: $grey;
+    font-size: 16px;
+    max-width: 200px;
+    margin: auto;
+  }
+
+  &__heading {
+    font-size: 26px;
+  }
+
+  &__image {
+    img {
+      width: 151px;
+      @media (max-width: 640px) {
+        width: 126px;
+        height: 124px;
+      }
+    }
+  }
+}
+
+.ie-grid {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}

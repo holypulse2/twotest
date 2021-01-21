@@ -1,0 +1,12 @@
+@import '../../../index.scss';
+
+.cta {
+    background-color: $yellow !important;
+    color: $white;
+    min-width: 280px;
+
+    &-div {
+        background-color: $blue;
+        min-height: 135px;
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../../index.scss';
+
+h2 {
+    color: $blue;
+}
+
+p {
+    color: $grey; 
+}
+
+.section {
+    &__title {
+        text-transform: uppercase;
+        color: $blue;
+        padding-bottom: 14px;
+    }
+}

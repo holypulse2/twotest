@@ -1,0 +1,131 @@
+@import '../../../index.scss';
+
+.header {
+	background-color: #E7EBF1 !important;
+	padding-left: 1.25rem;
+	padding-right: 1rem;
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+	z-index: 3;
+	
+	&__container {
+		max-width: 1536px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		overflow: hidden;
+		background-color: $white;
+	}
+	li {
+		a {
+			display: block;
+			padding: 20px 20px;
+			border-right: 1px solid #f4f4f4;
+			text-decoration: none;
+			&:hover {
+				background-color: #f4f4f4;
+			}
+		}
+	}
+	.menu-btn {
+		&:hover {
+			background-color: #f4f4f4;
+		}
+		display: none;
+		&:checked {
+			~ {
+				.menu {
+					max-height: 240px;
+        }
+				.menu-icon {
+					.navicon {
+						background: transparent;
+						&:before {
+							transform: rotate(-45deg);
+						}
+						&:after {
+							transform: rotate(45deg);
+						}
+          }
+					&:not(.steps) {
+						.navicon {
+							&:before {
+								top: 0;
+							}
+							&:after {
+								top: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.logo {
+		display: block;
+		float: left;
+		font-size: 2em;
+		padding: 2px 0px;
+		text-decoration: none;
+		width: 143px;
+		height: 56px;
+		@media (min-width: 768px) {
+			width: 121px;
+			height: 49px;
+		}
+	}
+	.menu {
+		clear: both;
+		max-height: 0;
+		transition: max-height .2s ease-out;
+	}
+	.menu-icon {
+		cursor: pointer;
+        display: none;
+		float: right;
+		padding: 28px 20px;
+		position: relative;
+        user-select: none;
+    @media (min-width: 640px) {
+      display: inline-block;
+
+    }
+    .menu-span {
+      font-size: 8px !important;
+      color: $blue;
+      font-weight: bold;
+    }
+		.navicon {
+			background: $blue;
+			display: block;
+			height: 2px;
+			position: relative;
+			transition: background .2s ease-out;
+			//width: 18px;
+			&:before {
+				background: $blue;
+				content: '';
+				display: block;
+				height: 100%;
+				position: absolute;
+				transition: all .2s ease-out;
+				width: 100%;
+				top: 5px;
+			}
+			&:after {
+				background: $blue;
+				content: '';
+				display: block;
+				height: 100%;
+				position: absolute;
+				transition: all .2s ease-out;
+				width: 100%;
+				top: -5px;
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.infolistbullets {
+    background-color: #F3F7F9;
+
+    h2 {
+        color: $blue;
+    }
+    
+    p {
+        color: $grey;
+        
+    }
+
+    &__heading {
+        font-size: 26px;
+    }
+
+    &__bulletText {
+         
+        color: $grey;
+        font-size: 16px;
+        max-width: 200px;
+        margin: auto;
+    }
+
+}
