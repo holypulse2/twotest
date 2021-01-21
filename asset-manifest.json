@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/twotest/static/css/main.41a07706.chunk.css",
-    "main.js": "/twotest/static/js/main.fdc3532a.chunk.js",
-    "main.js.map": "/twotest/static/js/main.fdc3532a.chunk.js.map",
-    "runtime-main.js": "/twotest/static/js/runtime-main.abd7b5e7.js",
-    "runtime-main.js.map": "/twotest/static/js/runtime-main.abd7b5e7.js.map",
-    "static/js/2.e0d0740d.chunk.js": "/twotest/static/js/2.e0d0740d.chunk.js",
-    "static/js/2.e0d0740d.chunk.js.map": "/twotest/static/js/2.e0d0740d.chunk.js.map",
-    "static/js/3.f3747294.chunk.js": "/twotest/static/js/3.f3747294.chunk.js",
-    "static/js/3.f3747294.chunk.js.map": "/twotest/static/js/3.f3747294.chunk.js.map",
-    "index.html": "/twotest/index.html",
-    "static/css/main.41a07706.chunk.css.map": "/twotest/static/css/main.41a07706.chunk.css.map",
-    "static/js/2.e0d0740d.chunk.js.LICENSE.txt": "/twotest/static/js/2.e0d0740d.chunk.js.LICENSE.txt",
-    "static/media/hero-image.a877084f.png": "/twotest/static/media/hero-image.a877084f.png",
-    "static/media/logo.4dc48088.svg": "/twotest/static/media/logo.4dc48088.svg",
-    "static/media/mobile-header.cc2e7d11.png": "/twotest/static/media/mobile-header.cc2e7d11.png"
+    "main.css": "/static/css/main.41a07706.chunk.css",
+    "main.js": "/static/js/main.0340b69f.chunk.js",
+    "main.js.map": "/static/js/main.0340b69f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09f9fb09.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09f9fb09.js.map",
+    "static/js/2.e0d0740d.chunk.js": "/static/js/2.e0d0740d.chunk.js",
+    "static/js/2.e0d0740d.chunk.js.map": "/static/js/2.e0d0740d.chunk.js.map",
+    "static/js/3.f3747294.chunk.js": "/static/js/3.f3747294.chunk.js",
+    "static/js/3.f3747294.chunk.js.map": "/static/js/3.f3747294.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.41a07706.chunk.css.map": "/static/css/main.41a07706.chunk.css.map",
+    "static/js/2.e0d0740d.chunk.js.LICENSE.txt": "/static/js/2.e0d0740d.chunk.js.LICENSE.txt",
+    "static/media/hero-image.a877084f.png": "/static/media/hero-image.a877084f.png",
+    "static/media/logo.4dc48088.svg": "/static/media/logo.4dc48088.svg",
+    "static/media/mobile-header.cc2e7d11.png": "/static/media/mobile-header.cc2e7d11.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.abd7b5e7.js",
+    "static/js/runtime-main.09f9fb09.js",
     "static/js/2.e0d0740d.chunk.js",
     "static/css/main.41a07706.chunk.css",
-    "static/js/main.fdc3532a.chunk.js"
+    "static/js/main.0340b69f.chunk.js"
   ]
 }
